@@ -63,10 +63,3 @@ section {
     from { transform: translateY(5px); }
     to { transform: translateY(-5px); }
 }
-
-#contact {
-    padding: 30px;
-    background-color: #11293f; /* Dark Navy Blue */
-    text-align: center;
-}
-
