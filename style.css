@@ -1,5 +1,5 @@
 body {
-    background-color: #1e1e2e;
+    background-color: #0e1a2b;
     color: #e0e0e0;
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -14,12 +14,13 @@ body {
 header h1 {
     font-size: 3rem;
     animation: fadeIn 2s ease-in-out;
+    color: #4f8bc9;
 }
 
 .glow-text {
     font-size: 1.2rem;
-    color: #9b59b6;
-    text-shadow: 0px 0px 10px #9b59b6;
+    color: #4f8bc9;
+    text-shadow: 0px 0px 10px #4f8bc9;
 }
 
 nav ul {
@@ -27,7 +28,7 @@ nav ul {
     justify-content: center;
     list-style: none;
     padding: 10px;
-    background-color: #33334d;
+    background-color: #1b2b45;
 }
 
 nav ul li {
