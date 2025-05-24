@@ -6,10 +6,20 @@ body {
     padding: 0;
 }
 
-header {
+.container {
     text-align: center;
     padding: 20px;
-    background-color: #28283d;
+}
+
+header h1 {
+    font-size: 3rem;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.glow-text {
+    font-size: 1.2rem;
+    color: #9b59b6;
+    text-shadow: 0px 0px 10px #9b59b6;
 }
 
 nav ul {
@@ -34,15 +44,21 @@ section {
     padding: 30px;
 }
 
-.project-card {
-    background-color: #2d2d4a;
+.float-card {
+    background: rgba(45, 45, 74, 0.9);
     padding: 15px;
-    border-radius: 8px;
-    margin: 10px 0;
+    border-radius: 12px;
+    margin: 10px auto;
+    width: 80%;
+    animation: floatAnimation 3s infinite alternate;
 }
 
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #28283d;
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes floatAnimation {
+    from { transform: translateY(5px); }
+    to { transform: translateY(-5px); }
 }
